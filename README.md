@@ -1,8 +1,30 @@
-# React + Vite
+# Empyrean
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Empyrean is a project created using HTML, CSS, JavaScript, React.js, and Tauri.
 
-Currently, two official plugins are available:
+![Empyrean Screenshot](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## About
+
+Empyrean is a web application built with HTML, CSS, JavaScript, React.js, and Tauri. It allows you to [provide a brief description of your project here].
+
+## Features
+
+- [List key features or functionalities of your project here.]
+
+## Getting Started
+
+To get started with Empyrean, follow these steps:
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/yourusername/empyrean.git
