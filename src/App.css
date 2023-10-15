@@ -10,7 +10,7 @@
 
 .logo {
   height: 5em;
-  padding: 1.7em;
+  padding: .7em;
   will-change: filter;
   transition: filter 1000ms;
   filter: saturate(1%);
@@ -23,22 +23,40 @@
 
 .side-nav {
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  top: 0;  bottom: 0;  left: 0;
   flex-direction: column;
   display: flex;
   padding-top: 1cm;
   background-color:#0d0d28;
-  opacity: .9;
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.644);
+  border-radius: 0%;
 }
 
-
-.button-side-nav {
+.side-nav-button {
   background-color: transparent;
+  color: #5C5C8E;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.side-nav-button:hover{
+  background-color:#070720;
+  border-color: #070720;
+  border-radius: 3px;
 
 }
+
+.side-nav-button:focus {
+  background-color: #3273fa;
+  color: #FFFFFF;
+  border-color: #070720;
+  border-radius: 3px;
+
+}
+ 
+
+
 
 
 /* rotate un element à l'infini
