@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div>        
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -16,13 +16,23 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
+
+      <div className='side-nav'>
+        <a href="aa">tier list</a>
+        <a href="aa">b</a>
+        <a href="aa">c</a>
+        <a href="aa">d</a>
+      </div>
+      
+
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Voici comment vous utilisez la balise <code>&lt;code&gt;</code> en HTML.
         </p>
       </div>
       <p className="read-the-docs">
