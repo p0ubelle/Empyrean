@@ -15,11 +15,8 @@ Using React.js, and Tauri.
 
 ## About
 
-Empyrean is a web application built with HTML, CSS, JavaScript, React.js, and Tauri. It allows you to [provide a brief description of your project here].
+Empyrean is a desktop/web application built with HTML, CSS, JavaScript, Rust, React.js, and Tauri.
 
-## Features
-
-- [List key features or functionalities of your project here.]
 
 ## Getting Started
 
