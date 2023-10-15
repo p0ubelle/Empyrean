@@ -8,26 +8,19 @@ function App() {
 
   return (
     <>
-      <div>        
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-
-
       <div className='side-nav'>
-        <a href=""></a>
-        <button className="button-side-nav" href="buttonbutton">tier list</button>
-        <button className="button-side-nav" href="buttonbutton">b</button>
-        <button className="button-side-nav" href="buttonbutton">c</button>
-        <button className="button-side-nav" href="buttonbutton">d</button>
+        <a href="">
+          <img src="src\assets\img\empyrean_logo.png" className="logo empyrean" alt="Empyrean Logo" />
+        </a>
+        
+        <button className="button-side-nav" href="buttonbutton">test1</button>
+        <button className="button-side-nav" href="buttonbutton">test2</button>
+        <button className="button-side-nav" href="buttonbutton">test3</button>
+        <button className="button-side-nav" href="buttonbutton">test4</button>
       </div>
       
 
-      <h1>Vite + React</h1>
+      <h1>Vite + React + Tauri</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -37,7 +30,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        by poubelle26, first deployement [15/10/23 11:09]
       </p>
     </>
   )
