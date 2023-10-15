@@ -1,6 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheckSquare, faCoffee, faTrophy, faUsers, faTerminal, faListOl} from '@fortawesome/fontawesome-free-solid'
+
+
 import './App.css'
 
 function App() {
@@ -13,14 +16,14 @@ function App() {
           <img src="src\assets\img\empyrean_logo.png" className="logo empyrean" alt="Empyrean Logo" />
         </a>
         
-        <button className="side-nav-button" href="buttonbutton">tier list</button>
-        <button className="side-nav-button" href="buttonbutton">test2</button>
-        <button className="side-nav-button" href="buttonbutton">test3</button>
-        <button className="side-nav-button" href="buttonbutton">test4</button>
+        <button className="side-nav-button" href="buttonbutton"><FontAwesomeIcon icon={faListOl}/> tier list</button>
+        <button className="side-nav-button" href="buttonbutton"><FontAwesomeIcon icon={faUsers}/> Champions</button>
+        <button className="side-nav-button" href="buttonbutton"><FontAwesomeIcon icon={faTrophy}/> Leaderboard</button>
+        <button className="side-nav-button" href="buttonbutton"><FontAwesomeIcon icon={faTerminal}/> Commands</button>
       </div>
       
 
-      <h1>Empyrean</h1>
+      <h1>Empyrean</h1> 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
