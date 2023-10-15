@@ -3,7 +3,7 @@
 Empyrean is a project created using HTML, CSS, JavaScript, Rust.
 Using React.js, and Tauri.
 
-![Empyrean Screenshot](src/assets/example/screenshot.png)
+![Empyrean Screenshot](src/assets/example/screenshot_ex.png)
 
 ## Table of Contents
 
