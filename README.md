@@ -24,7 +24,13 @@ To get started with Empyrean, follow these steps (you have to build it for now):
 
    ```shell
    $ git clone https://github.com/p0ubelle/empyrean.git
+   
+2. cd
+   ```shell
    $ cd empyrean
+
+3. Build it (for now):
+   ```shell
    $ yarn tauri build
 
 go to "src-tauri\target\debug\empyrean.exe"
