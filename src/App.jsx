@@ -19,10 +19,11 @@ function App() {
 
 
       <div className='side-nav'>
-        <a href="aa">tier list</a>
-        <a href="aa">b</a>
-        <a href="aa">c</a>
-        <a href="aa">d</a>
+        <a href=""></a>
+        <button className="button-side-nav" href="buttonbutton">tier list</button>
+        <button className="button-side-nav" href="buttonbutton">b</button>
+        <button className="button-side-nav" href="buttonbutton">c</button>
+        <button className="button-side-nav" href="buttonbutton">d</button>
       </div>
       
 
@@ -32,7 +33,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Voici comment vous utilisez la balise <code>&lt;code&gt;</code> en HTML.
+          test <code>&lt;code&gt;</code> HTML
         </p>
       </div>
       <p className="read-the-docs">

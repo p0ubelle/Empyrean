@@ -3,7 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-shadow: 2px 0 40px rgba(0, 0, 0, 0.644);
+
 }
+
 
 .logo {
   height: 6em;
@@ -26,12 +29,16 @@
   flex-direction: column;
   display: flex;
   padding-top: 1cm;
-  padding-left: 0.5cm;
+  background-color:#0d0d28;
+  opacity: .9;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.644);
 }
 
 
+.button-side-nav {
+  background-color: transparent;
 
-
+}
 
 
 
