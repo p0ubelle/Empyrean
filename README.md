@@ -27,5 +27,5 @@ To get started with Empyrean, follow these steps:
    git clone https://github.com/yourusername/empyrean.git
 
 ## Contact
-email : raphael.vasseur26@proton.me
-discord : p0ubelle
+- email : raphael.vasseur26@proton.me
+- discord : p0ubelle
