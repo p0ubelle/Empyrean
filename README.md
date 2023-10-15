@@ -8,7 +8,6 @@ Using React.js, and Tauri.
 ## Table of Contents
 
 - [About](#about)
-- [Features](#features)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -26,3 +25,7 @@ To get started with Empyrean, follow these steps:
 
    ```shell
    git clone https://github.com/yourusername/empyrean.git
+
+## Contact
+email : raphael.vasseur26@proton.me
+discord : p0ubelle
